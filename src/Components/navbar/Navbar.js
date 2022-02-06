@@ -10,7 +10,7 @@ import "./Navbar.css"
 export const Navbar=()=> {
   return <div className='header'>
  <FontAwesomeIcon icon={faBars} className='fabar fa-2x'/>
- <img alt="" src={Logo}/>
+ <img  className="Logo"alt="" src={Logo}/>
  <div>
  <img  className="icons"alt="" src={Ellipse}/>
  <img className="icons" alt="" src={Play}/>
