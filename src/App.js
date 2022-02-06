@@ -4,10 +4,11 @@ import {Navbar} from './Components/navbar/Navbar'
 import {TopList} from './Components/toplist/TopList'
 function App() {
   return (
-     
-    <TopList/>,
+   <div>
+    
     <Navbar/>
-   
+    <TopList/>
+    </div>  
   );
 }
 
