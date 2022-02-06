@@ -1,3 +1,21 @@
 .placeholderMain{
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+   
     
+    
+    
+
+}
+.slidetitle{
+    color: #666666;
+  
+}
+.placeholder{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+   
+   
 }
