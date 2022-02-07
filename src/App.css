@@ -50,8 +50,26 @@
   
 }
 .placeholderMain{
- 
+  border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC; 
+    justify-content: space-between;
+    padding: 30px 0;
   display: flex;
+  flex-wrap: wrap;
   
 
+}
+.climdatamain{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 30px 0;
+
+}
+.Clime{
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 300;
 }

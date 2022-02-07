@@ -1,5 +1,15 @@
 .climatmain{
-    display: flex;
     justify-content: center;
-    padding: 50px;
+   width: 30%;
+
+}
+.text1{
+    color: #666666;
+    width: 90%;
+}
+.text2{
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+padding: 10px 0;
 }

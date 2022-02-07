@@ -10,6 +10,9 @@ import img2 from "./images/Placeholder2.png"
 import img3 from "./images/Placeholder3.png"
 import img4 from "./images/Placeholder4.png"
 import img5 from "./images/Placeholder5.png"
+import jpg1 from "./images/Rectangle.png"
+import jpg2 from "./images/Rectangle2.png"
+import jpg3 from "./images/Rectangle3.png"
 const holderdata = [
   {
     img:img1,
@@ -32,6 +35,20 @@ const holderdata = [
     desc:"This title is a Placeholder"
   }
 ]
+const climatedata= [
+  {
+    jpg:jpg1,
+    text:"Environmental activist Satish Kumar guides us on a journey that surveys the grotesqueness and beauty of mankind’s interaction with the planet"
+  },
+  {
+    jpg:jpg2,
+    text:"Environmental activist Satish Kumar guides us on a journey that surveys the grotesqueness and beauty of mankind’s interaction with the planet"
+  },
+  {
+    jpg:jpg3,
+    text:"Environmental activist Satish Kumar guides us on a journey that surveys the grotesqueness and beauty of mankind’s interaction with the planet"
+  }
+]
 function App() {
   return (
    <div>
@@ -45,7 +62,12 @@ function App() {
         <PlaceHolder index={index} key={index} img={item?.img} desc={item?.desc} />
       ))}
       </div>
-      <Climate/>
+      <p className="Clime">A CLIMATE OF CHANGE</p>
+      <div className="climdatamain">
+      {climatedata.map((item,index)=> (
+        <Climate index={index} key={index} jpg={item?.jpg} text={item?.text} />
+      ))}
+      </div>
     </div>
     
     </div>  
