@@ -3,3 +3,26 @@
    padding-bottom: 40px;
 
 }
+.slidetext{
+   text-align: center;
+   position:absolute;
+   bottom:30px;
+   left: 0;
+   right:0;
+   color: #FFFFFF
+   ;
+
+}
+.main{
+   position: inherit;
+}
+.headtitle{
+ font-size: 42px;
+ font-weight: 700;
+ line-height: 50px;
+}
+.secondtitle{
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 25px;
+}

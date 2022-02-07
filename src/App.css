@@ -1,3 +1,9 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -40,5 +46,12 @@
 .slimContainer{
   margin-right: 3%;
   margin-left: 3%;
+ 
   
+}
+.placeholderMain{
+ 
+  display: flex;
+  
+
 }
