@@ -49,6 +49,16 @@
  
   
 }
+.slimContainer .slick-slide{
+  padding: 0 30px;
+}
+.slimContainer .slick-next:before, .slimContainer .slick-prev:before {
+  color: black;
+  
+}
+.slimContainer .slick-next {
+  right: 1px;
+}
 .placeholderMain{
   border-top: 1px solid #CCCCCC;
     border-bottom: 1px solid #CCCCCC; 
