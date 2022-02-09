@@ -5,7 +5,10 @@ import Play from '../../images/Darkplay.svg';
 export const Series = (props) => {
   return (
     <div className="seriesmain">
-      <p className="seriestext">SERIES</p>
+           <p className="seriestext">SERIES</p>
+      <div className='row'>
+      <div className='series-area'>
+ 
       <div className="playlist">
         <p className="firsttitle">Text here</p>
         <p className="secondtitle">Text here</p>
@@ -16,7 +19,12 @@ export const Series = (props) => {
         </p>
         <img alt="" src={Play} className="musicicon" />
       </div>
+      </div>
+      <div className='slider-area'>
       {props.children}
+      </div>
+      </div>
+
     </div>
   );
 };

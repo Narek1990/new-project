@@ -1,7 +1,20 @@
 .climatmain{
     justify-content: center;
    width: 30%;
-
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.popularvideos .climatmain:first-child::after {
+    content: "";
+    position: absolute;
+    right: -130px;
+    top: 20px;
+    height: 400px;
+    width: 1px;
+    background: #CCCCCC;
 }
 .climatmain img{
     width: 100%;
@@ -15,4 +28,15 @@ font-weight: 500;
 font-size: 20px;
 line-height: 28px;
 padding: 10px 0;
+}
+.parenttitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.mostwatched{
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }

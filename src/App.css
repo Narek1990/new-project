@@ -59,6 +59,18 @@
   height: 50px;
   display: flex;
   align-items: center;
+  margin-top: -20px;
+}
+.seriescontainer .slick-next {
+  display: none;
+ 
+}
+.seriescontainer .slick-prev {
+  display: none;
+ 
+}
+.slimContainer .slick-prev {
+  margin-top: -30px;
 }
 .placeholderMain{
   border-top: 1px solid #CCCCCC;
@@ -82,4 +94,21 @@ padding: 30px 0;
   font-size: 25px;
   line-height: 33px;
   font-weight: 300;
+}
+.popularvideos{
+  display: flex;
+  
+
+}
+.popularvideos .climatmain{
+ margin:50px 130px;
+ 
+
+  
+}
+.popularvideos .climatmain p{
+  margin-top: 10px;
+}
+.popularvideos p{
+text-align: center;
 }
