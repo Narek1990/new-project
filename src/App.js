@@ -21,6 +21,31 @@ import seriesimg2 from './images/seriesimg2.png';
 import seriesimg3 from './images/seriesimg3.png';
 import popularvideo1 from './images/popularvideo1.png';
 import popularvideo2 from './images/popularvideo2.png';
+import {Social} from "./Components/social/Social";
+import Rectangle13 from "./images/Rectangle13.png";
+import Rectangle14 from "./images/Rectangle14.png";
+import FaceIcon from "./images/facebookicon.svg";
+import TwitIcon from "./images/twittericon.svg";
+import { Conections } from './Components/socialconections/Conections';
+import { MakeFilm } from './Components/makefilm/MakeFilm';
+import Movie1 from "./images/Rectangle18.png";
+import Movie2 from "./images/Rectangle19.png";
+import Movie3 from "./images/Rectangle20.png";
+import { iconsdata, additionaldata } from './data/mockdata';
+
+
+const socialdata=[
+  {
+    img:Rectangle14,
+    icon:FaceIcon,
+    button:"LIKE"
+  },
+  {
+    img:Rectangle13,
+    icon:TwitIcon,
+    button:"SUBSCRIBE"
+  }
+]
 
 const holderdata = [
   {
@@ -119,6 +144,18 @@ const settings2 = {
   autoplaySpeed: 2000,
 
 };
+const filmdata=[
+  {
+img:Movie1
+  },
+  {
+    img:Movie2
+      },
+      {
+        img:Movie3
+          }
+]
+
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
@@ -196,7 +233,54 @@ function App() {
             />
           ))}
           </div>
+          <div className='socialContainer'>
+          {socialdata.map((item, index) => (
+            <Social
+            index={index}
+            key={index}
+            img={item?.img}
+            icon={item?.icon}
+            button={item?.button}
+
+            />
+          ))}
+           </div>
+           <Conections/>
+           <p className='makefilmtitle'>MORE TO LOVE</p>
+           <div className='makefilmmain'>
+           {filmdata.map((item,index) => (
+            <MakeFilm
+            index={index}
+            key={index}
+            img={item?.img}
+            />
+           ))}
+           </div>
+          
           </div>
+          <div className='socialicons2'>
+          {iconsdata.sort((a,b) => a.id - b.id).map((item, index) => (
+                        <div className='socialiconsnew' key={index}>
+                            <img
+                                src={item?.src}
+                            />
+                        </div>
+                    ))}
+          </div>
+          <div className='options'>
+            {additionaldata.map((item,index)=>(
+              <p className='optionlist'
+               key={index}  >
+                   {item?.title}
+              </p>
+            ))}
+            
+          </div>
+          <div className='finishtext'>
+          <p>Ⓒ 2021 广州现代移动数码传播有限公司版权所有</p>
+            <p>Ⓒ 2021 MODERN MOBILE DIGITAL MEDIA CO. LTD. ALL RIGHTS RESERVED.</p>
+            <p>粤ICP备10213522号</p>
+            </div>
     </div>
   );
 }

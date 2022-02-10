@@ -1,0 +1,15 @@
+.mainsocial{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+   padding-right: 180px;
+}
+.followbutton{
+    padding: 10px 20px 10px 20px; 
+    background-color: white;
+    border: 1px solid black;
+}
+.subscribeArea{
+    padding: 60px 60px 60px 90px;
+}

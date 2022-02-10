@@ -1,0 +1,48 @@
+.conections{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #CCCCCC  ;
+}
+
+.newmember{
+    
+width:49%;
+margin: 100px 0 100px 0;
+position: relative;
+
+}
+.socialmedia{
+    width:49%;
+    margin: 100px 0 100px 0;
+}
+.socialicons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+.socialmediaitem{
+    margin-top: 50px;
+    width: 25%;
+    line-height: 55px;
+}
+
+.newmember::after {
+    content: "";
+    position: absolute;
+    height: 330px;
+    top:-40px;
+    right:0;
+    width: 1px;
+    background: #CCCCCC ;
+}
+.memberbutton{
+    padding: 10px 20px 10px 20px; 
+    background-color: white;
+    border: 1px solid black;
+    margin: 40px 0 10px 0;
+}
+.signin{
+    color:#CCCCCC;
+}

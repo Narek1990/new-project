@@ -1,0 +1,12 @@
+.makefilm{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.filmtitle{
+    margin: 40px;
+}
+.sampletext{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
