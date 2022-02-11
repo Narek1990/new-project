@@ -156,3 +156,20 @@ font-size: 13px;
   padding: 3%;
   font-size: 13px;
 }
+.AwardsPage, .SeriesPage, .Topics, .Picks, .Festival, .Programs {
+  width: 100%;
+  height: 500px;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .titles.active{
+   display: inline-block;
+border-bottom: 3px solid #C9A16E;
+padding-top: 17px;
+ }
+ .seriesimage{
+   width: 40%;
+   height: 70%;
+   
+ }

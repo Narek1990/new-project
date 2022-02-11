@@ -5,7 +5,7 @@ export const MakeFilm=(props)=> {
   return (
     <div className='makefilm'>
         <div className='filmimg'>
-    <img src={props.img}/>
+    <img alt='' src={props.img}/>
         </div>
         <div className='filmtitle'>
             <p className='sampletext'>Sample text</p>

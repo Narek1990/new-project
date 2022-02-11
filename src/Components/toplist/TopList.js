@@ -1,14 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./TopList.css"
 
 export const TopList=()=> {
   return <div className='toplist'>
-    <p className="titles">series</p>
-    <p className="titles">topics</p>
-    <p className="titles">picks</p>
-    <p className="titles">nowness digital festival</p>
-    <p className="titles">special programs</p>
-    <p className="titles">nowness awards</p>
+    <NavLink className="titles" to='/series'>series</NavLink>
+    <NavLink className="titles" to='/topics'>topics</NavLink>
+    <NavLink className="titles" to="/picks">picks</NavLink>
+    <NavLink className="titles" to="/festival">nowness digital festival</NavLink>
+    <NavLink className="titles" to="/programs">special programs</NavLink>
+    <NavLink className="titles" to="/awards">nowness awards</NavLink>
   </div>;
 
 }

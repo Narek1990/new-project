@@ -6,9 +6,17 @@
     border-bottom: 1px solid #DDDDDD;
     align-items: center;
     justify-content: center;
+    
 }
 .titles{
     text-transform: uppercase;
     padding: 14px;
 Font-size: 13px;
+text-decoration: none;
+color: black;
+}
+.titles:hover{
+    border-right: 0.5px solid gainsboro;;
+    border-left: 0.5px solid gainsboro;;
+    cursor: pointer;
 }
