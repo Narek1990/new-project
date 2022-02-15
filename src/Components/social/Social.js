@@ -4,6 +4,7 @@ import './social.css';
 
 export const Social=(props)=> {
   return (
+    <div className='socialgeneral'>
     <div className='mainsocial'>
         <div className='socialImage'>
 <img alt="" src={props.img}/>
@@ -15,5 +16,7 @@ export const Social=(props)=> {
 <button className='followbutton'>{props.button}</button>
 </div>
     </div>
+    </div>
+
   )
 }

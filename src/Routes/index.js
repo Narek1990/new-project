@@ -7,6 +7,11 @@ import {Topics} from "../pages/Topics";
 import {Picks} from "../pages/Picks";
 import {Programs} from "../pages/Programs";
 
+
+
+
+
+
 const Routes = () => {
     return (
         <Switch>

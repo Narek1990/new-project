@@ -1,7 +1,8 @@
 .makefilm{
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3%;
+    width: 33%;
 }
 .filmtitle{
     margin: 40px;
