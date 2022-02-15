@@ -81,6 +81,9 @@
   
 
 }
+.placeholder :last-child {
+  margin-top: 10px;
+}
 .climdatamain{
 display: flex;
 justify-content: space-between;
